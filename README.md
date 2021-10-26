@@ -1,5 +1,5 @@
 - Hi, I'm @bennetgoeckner
-- I'm currently an MSRI/Simons Postdoctoral Fellow in mathematics at the University of Washington
+- I'm an MSRI/Simons Postdoctoral Fellow in mathematics at the University of Washington
 - My UW site is <a href="https://sites.math.washington.edu/~goeckner/">available here</a>.
 
 <!---
