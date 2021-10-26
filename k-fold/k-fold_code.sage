@@ -1,3 +1,9 @@
+## Copyright (c) 2021, Joseph Doolittle and Bennet Goeckner
+## All rights reserved.
+
+## This source code is licensed under the BSD-style license found in the
+## LICENSE file in the root directory of this source tree. 
+
 ## Last edited 10/04/2021 by Joseph Doolittle and Bennet Goeckner.
 ##
 ## The following is our counterexample to Conjecture 2.4 from Stanley's "A combinatorial decomposition of acyclic simplicial complexes."
