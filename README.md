@@ -1,8 +1,1 @@
-- Hi, I'm @bennetgoeckner
-- I'm an MSRI/Simons Postdoctoral Fellow in mathematics at the University of Washington
-- My UW site is <a href="https://sites.math.washington.edu/~goeckner/">available here</a>.
-
-<!---
-bennetgoeckner/bennetgoeckner is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This project contains SageMath code that verifies that the complex Omega_3 in remark in "Resolving Stanley's conjecture on k-fold acyclic complexes" is a counterexample to Conjecture 2.4 in "A combinatorial decomposition of acyclic simplicial complexes."
