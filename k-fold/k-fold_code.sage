@@ -4,7 +4,7 @@
 ## This source code is licensed under the BSD-style license found in the
 ## LICENSE file in the root directory of this source tree. 
 
-## Last edited 10/04/2021 by Joseph Doolittle and Bennet Goeckner.
+## Last edited 10/27/2021 by Joseph Doolittle and Bennet Goeckner.
 ##
 ## The following is our counterexample to Conjecture 2.4 from Stanley's "A combinatorial decomposition of acyclic simplicial complexes."
 ## We will first show that the complex is 2-fold acyclic (i.e., link(F) is acyclic for all F such that |F|<2).
@@ -39,7 +39,7 @@ Example=SimplicialComplex({
         ('C','D','H','L3'),('C','D','J3','L3'),('C','H','J3','L3'),('C','G','H','J3'),('G','H','J3','L3'),
         ('E','F','G','L3'),('E','F','K3','L3'),('F','G','K3','L3'),('F','G','H','K3'),('G','H','K3','L3'),
         })
-print "The counterexample's f-vector is" , Example.f_vector()
+print("The counterexample's f-vector is" , Example.f_vector())
 
 
 #####################
@@ -48,9 +48,9 @@ print "The counterexample's f-vector is" , Example.f_vector()
 ## The complex itself and the links of all vertices are acyclic; thus the complex is 2-fold acyclic:
 ##
 
-print "Homology of complex :", Example.homology()
+print("Homology of complex :", Example.homology())
 for v in Example.vertices():
-    print "Homology of vertex" , v , ":" , Example.link([v]).homology()
+    print("Homology of vertex" , v , ":" , Example.link([v]).homology())
 	
 
 #####################
@@ -108,7 +108,7 @@ def DiamondDecomp(Q):
 ## The f-polynomial of our example is f(t) = (1+t)^2*(1+18t+99t^2), so we would need 1+18+99=118 rank 2 boolean intervals to fully decompose the face poset.
 ## However, we will see below that the largest decomposition the linear program can find contains only 117 rank 2 boolean intervals, therefore the complex is a counterexample to Stanley's conjecture.
 ##
-print "The largest possible decomposition of our example into rank 2 boolean intervals contains only" , DiamondDecomp(Example) , "intervals. It would need 118 intervals to be fully decomposed."
+print("The largest possible decomposition of our example into rank 2 boolean intervals contains only" , DiamondDecomp(Example) , "intervals. It would need 118 intervals to be fully decomposed.")
 
 
 #####################
