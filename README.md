@@ -1,1 +1,1 @@
-This project contains SageMath code that verifies that the complex Omega_3 in remark in "Resolving Stanley's conjecture on k-fold acyclic complexes" is a counterexample to Conjecture 2.4 in "A combinatorial decomposition of acyclic simplicial complexes."
+This project contains SageMath code that verifies that the complex Omega_3 from Remark 3.5 in "Resolving Stanley's conjecture on k-fold acyclic complexes" is a counterexample to Conjecture 2.4 in "A combinatorial decomposition of acyclic simplicial complexes."
